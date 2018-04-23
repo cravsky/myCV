@@ -1,3 +1,7 @@
+.lead {
+    font-size: 1em;
+}
+
 .bg-secondary {
     background-color: gainsboro !important;
     color: black;
@@ -34,7 +38,6 @@ li {
     font-size: 0.75rem;
 }
 
-html,
 body {
     height: 297mm;
     width: 210mm;
@@ -49,6 +52,7 @@ footer {
     padding: 5px;
 }
 
+/*
 .work,
 .education,
 .profile,
@@ -56,12 +60,14 @@ footer {
 .skills,
 .trainings,
 .hobbies,
+*/
+section,
 footer,
 img,
 header {
     border: 1px solid grey;
     padding: 5px;
-    margin: 2px;
+    margin: 5px 2px;
     border-radius: 16px;
 }
 
@@ -73,6 +79,10 @@ header {
 }
 
 p {
-    margin-top: 2px;
-    margin-bottom: 2px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+hr {
+    margin: 3px;
 }
