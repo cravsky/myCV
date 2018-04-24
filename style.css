@@ -7,62 +7,41 @@
     size: A4 portrait;
     margin: 10mm;
 
-    /*   
-    html { 
-       width: 150mm;
-       
-    }
-    body {
-        
-        border: 2px solid black;
-    }
-
-    /*
-body {
-        margin: 0;
-        height: 297mm;
-        width: 210mm;
-        border: 1px solid black;
-}
-*/
     .lead {
         font-size: 1em;
     }
 
-    .bg-secondary {
-        background-color: gainsboro !important;
-        color: black;
-        font-size: 1rem;
-        text-align: left;
-    }
-
     h1 {
-        font-size: 1.75rem;
+        font-size: 1.90rem;
     }
 
     h2 {
-        font-size: 1.6rem;
+        font-size: 1.70rem;
     }
 
     h3 {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
     }
 
     h4 {
-        font-size: 1.25rem;
+        font-size: 1.5rem;
     }
 
     h5 {
-        font-size: 1.0rem;
+        font-size: 1.25rem;
     }
 
     h6 {
-        font-size: 0.75rem;
+        font-size: 1.25rem;
     }
 
     p,
     li {
-        font-size: 0.75rem;
+        font-size: 1.05rem;
+    }
+
+    footer p {
+        font-size: 0.95rem;
     }
 
     header {
@@ -75,12 +54,12 @@ body {
 
     section,
     footer,
-    main,
     img,
+    main,
     header {
         border: 1px solid grey;
         padding: 5px;
-        margin: 5px 2px;
+        margin: 10px 5px;
         border-radius: 16px;
     }
 
@@ -92,11 +71,11 @@ body {
     }
 
     p {
-        margin-top: 1px;
-        margin-bottom: 1px;
+        margin: 3px;
     }
 
     hr {
-        margin: 3px;
+        margin: 6px;
+        border-width: 2px;
     }
 }
