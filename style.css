@@ -1,88 +1,102 @@
-.lead {
-    font-size: 1em;
+@page {
+    size: A4 portrait;
+    margin: 10mm;
 }
 
-.bg-secondary {
-    background-color: gainsboro !important;
-    color: black;
-    font-size: 1rem;
-    text-align: left;
-}
+@media all{
+    size: A4 portrait;
+    margin: 10mm;
 
-h1 {
-    font-size: 1.75rem;
-}
+    /*   
+    html { 
+       width: 150mm;
+       
+    }
+    body {
+        
+        border: 2px solid black;
+    }
 
-h2 {
-    font-size: 1.6rem;
-}
-
-h3 {
-    font-size: 1.5rem;
-}
-
-h4 {
-    font-size: 1.25rem;
-}
-
-h5 {
-    font-size: 1.0rem;
-}
-
-h6 {
-    font-size: 0.75rem;
-}
-
-p,
-li {
-    font-size: 0.75rem;
-}
-
+    /*
 body {
-    height: 297mm;
-    width: 210mm;
-    border: 1px solid black;
+        margin: 0;
+        height: 297mm;
+        width: 210mm;
+        border: 1px solid black;
 }
-
-header {
-    text-align: center;
-}
-
-footer {
-    padding: 5px;
-}
-
-/*
-.work,
-.education,
-.profile,
-.contact,
-.skills,
-.trainings,
-.hobbies,
 */
-section,
-footer,
-img,
-header {
-    border: 1px solid grey;
-    padding: 5px;
-    margin: 5px 2px;
-    border-radius: 16px;
-}
+    .lead {
+        font-size: 1em;
+    }
 
-.progress {
-    height: 32px;
-    margin: 2px;
-    background-color: white;
-    border: solid 1px grey;
-}
+    .bg-secondary {
+        background-color: gainsboro !important;
+        color: black;
+        font-size: 1rem;
+        text-align: left;
+    }
 
-p {
-    margin-top: 1px;
-    margin-bottom: 1px;
-}
+    h1 {
+        font-size: 1.75rem;
+    }
 
-hr {
-    margin: 3px;
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    h4 {
+        font-size: 1.25rem;
+    }
+
+    h5 {
+        font-size: 1.0rem;
+    }
+
+    h6 {
+        font-size: 0.75rem;
+    }
+
+    p,
+    li {
+        font-size: 0.75rem;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    footer {
+        padding: 5px;
+    }
+
+    section,
+    footer,
+    main,
+    img,
+    header {
+        border: 1px solid grey;
+        padding: 5px;
+        margin: 5px 2px;
+        border-radius: 16px;
+    }
+
+    .progress {
+        height: 32px;
+        margin: 2px;
+        background-color: white;
+        border: solid 1px grey;
+    }
+
+    p {
+        margin-top: 1px;
+        margin-bottom: 1px;
+    }
+
+    hr {
+        margin: 3px;
+    }
 }
